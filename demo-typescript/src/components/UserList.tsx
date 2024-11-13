@@ -16,7 +16,7 @@ import {
   Box,
 } from '@mui/material';
 
-const UserList: React.FC = () => {
+const UserList = () => {
   const [users, setUsers] = useState<User[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
